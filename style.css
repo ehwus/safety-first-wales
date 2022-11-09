@@ -1,0 +1,50 @@
+:root {
+    --primary-color: #FDF7F7;
+    --secondary-color: #313638;
+    --tertiary-color: #F7DEDE;
+    --asset-color: #DA4242;
+}
+
+.asset-background {
+    background-color: var(--asset-color);
+}
+
+.primary-color {
+    color: var(--primary-color);
+}
+
+.secondary-background {
+    background-color: var(--secondary-color);
+}
+
+.tertiary-background {
+    background-color: var(--tertiary-color);
+}
+
+body {
+    background-color: var(--primary-color);
+    font-family: "Oswald", sans-serif;
+}
+
+.highlighted-title {
+    background-color: var(--asset-color );
+    padding: 0.8em;
+    border-radius: 20px;
+    color: white;
+    max-width: 200px;
+    text-align: center;
+}
+
+.site-title {
+    color: var(--asset-color);
+    text-decoration: none;
+}
+
+.site-title:visited {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+.about-us-image {
+    max-width: 200px;
+}
