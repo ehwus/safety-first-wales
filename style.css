@@ -48,3 +48,11 @@ body {
 .about-us-image {
     max-width: 200px;
 }
+
+.call-to-action {
+    color: var(--asset-color);
+}
+
+.call-to-action:hover {
+    color: var(--tertiary-color) !important;
+}
